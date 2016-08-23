@@ -1,5 +1,5 @@
 FROM gliderlabs/alpine:latest
-MAINTAINER Matthew Gall <docker@matthewgall.com>
+MAINTAINER Stefan Zweig <stefan.zweig@gmail.com>
 
 RUN apk add --update \
 	build-base \

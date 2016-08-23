@@ -5,7 +5,7 @@ This image provides a base Alpine linux installation (provided by gliderlabs/alp
 
 #### Versions
 ##### 7
-    docker pull matthewgall/openjdk7
+    docker pull stefanzweig/openjdk7
 
 ##### 8
-    docker pull matthewgall/openjdk8
+    docker pull stefanzweig/openjdk8

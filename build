@@ -3,6 +3,7 @@
 for d in $(ls -l . | egrep '^d' | awk '{print $9}')
 do
 	if [ ! -f $d/.buildignore ]; then
+		echo $d >  $d/README.md
 		cat $d/README.md >> ./README.md
 		echo "" >> ./README.md
 	fi

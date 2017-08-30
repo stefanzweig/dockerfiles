@@ -1,0 +1,3 @@
+FROM stefanzweig:python-dev
+MAINTAINER Stefan Zweig <stefan.zweig@gmail.com>
+RUN pip3 install robotframework==3.0.2
